@@ -10,6 +10,10 @@ public class FrostGiant : Entity
     public override void Skill()
     {
         Instantiate(effect, enemy.transform.position+Vector3.up*0.5f, Quaternion.identity).GetComponent<ParticleSystemRenderer>().sortingOrder = enemy.sprRenderer.sortingOrder + 1;
-        enemy.GetDamage(this);
+        if(enemy != null)
+        {
+            enemy.GetDamage(this);
+        }
+        
     }
 }

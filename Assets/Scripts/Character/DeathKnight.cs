@@ -9,6 +9,10 @@ public class DeathKnight : Entity
     public override void Skill()
     {
         Instantiate(skillEffect, enemy.transform.position, Quaternion.identity).GetComponent<ParticleSystemRenderer>().sortingOrder = enemy.sprRenderer.sortingOrder + 1;
-        enemy.GetDamage(this);
+        if(enemy != null)
+        {
+            enemy.GetDamage(this);
+        }
+        
     }
 }

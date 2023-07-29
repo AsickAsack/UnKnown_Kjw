@@ -17,7 +17,7 @@ public class Sorcerer : Entity
     {
         foreach(Entity team in (isEnemy ? manager.Enmeies : manager.MyChars))
         {
-            if(team.CompareState(State.Death)) continue;
+            if(team.CompareState(State.Death) || team == null) continue;
 
             Instantiate(healEffect, team.transform.position, Quaternion.identity).GetComponent<ParticleSystemRenderer>().sortingOrder = team.sprRenderer.sortingOrder+1;
             float healValue = team.Stat.curHP * 0.1f;

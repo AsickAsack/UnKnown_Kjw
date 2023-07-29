@@ -133,8 +133,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myState: 0
   stat:
-    maxHP: 5500
-    curHP: 5500
+    maxHP: 55000
+    curHP: 55000
     atk: 600
     atkSpeed: 1.5
     penetration: 40

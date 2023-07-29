@@ -44,7 +44,11 @@ public class Efreet : Entity
                 Instantiate(skillEffect, skillObjectInstance.transform.position, Quaternion.identity);
                 Destroy(skillObjectInstance);
 
-                enemy.GetDamage(this);
+                if(enemy != null)
+                {
+                    enemy.GetDamage(this);
+                }
+                
 
             }));
     }
