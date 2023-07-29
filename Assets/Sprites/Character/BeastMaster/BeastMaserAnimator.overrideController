@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BeastMaserAnimator
+  m_Controller: {fileID: 9100000, guid: a08b89c788ec0c14f8e830580a63b2b3, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0c749523dc59d1442be78c698b97d8b9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fbee5abb115a5bd44bfb7b672352917f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9863de7d40b880d49916c049e9370d75, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3ad96307f004ce94c9e5449e58fa0d41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6a807b2fb00eb4246b4a2837fbb0f8bb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f4b3e9a37aa148e4aa034f2e18e02df0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5181e7c4efadb794c85867e045dfa143, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54b7cded21ad78046af68f3ab565b976, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6ea3b606b2d9c4f4683883ad0e6c343e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6b79bc0da98de6140bd7ac552fc2236f, type: 2}
